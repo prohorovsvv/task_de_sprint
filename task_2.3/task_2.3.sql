@@ -126,5 +126,3 @@ order by CURRENT_DATE-start_date desc
 select level, avg(salary) as avg_salary
 from employee
 group by level
-
-
